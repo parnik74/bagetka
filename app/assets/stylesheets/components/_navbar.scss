@@ -1,0 +1,29 @@
+.navbar-lewagon {
+  justify-content: space-between;
+  background: #e6ded3;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 70px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(27, 56, 2);
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #1e3e2f;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: white;
+    border: 0;
+}
