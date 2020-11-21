@@ -1,0 +1,23 @@
+.card-category {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+// trip
+
+.card-trip {
+   background: white;
+}
+
+.card-trip-footer {
+  padding: 16px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.card-trip img {
+  height: 500px;
+  object-fit: cover;
+}

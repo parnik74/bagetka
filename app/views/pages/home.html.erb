@@ -1,26 +1,45 @@
-<h1>Багетка</h1>
-<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/background.png);">
-  <div class="container">
-    <h1>Багетка!</h1>
-    <p>hi</p>
 
+<div class="container">
+  <div class="col-mg-8">
+    <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1534944845791-f9e35a201bf8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);">
+      <div class="container">
+        <h1>Багетка!</h1>
+        <p>hi</p>
+        <%= link_to "Start now", "#", class: "btn btn-gradient" %>
 
-    <%= link_to "Start now", "#", class: "btn btn-gradient" %>
-  </div>
-</div>
+        
+      </div>
+    </div>
 <%= link_to "Start now", "#", class: "btn btn-gradient" %>
 
 <ul class="list-inline tabs-underlined">
   <li>
-    <a href="#" class="tab-underlined active">Контакты</a>
+    <%= link_to "How can we help?", contacts_path %>
   </li>
   <li>
-    <a href="#" class="tab-underlined">Скидки и акции</a>
+    <a href="#" class="tab-underlined">Примеры работ</a>
   </li>
   <li>
-    <a href="#" class="tab-underlined">Картины на заказ</a>
-  </li>
-  <li>
-    <a href="#" class="tab-underlined">Прмеры наших работ</a> 
+    <a href="#" class="tab-underlined">Акции</a>
   </li>
 </ul>
+
+
+<div class="row">
+  <div class="col-mg-8">
+    <h2>Название картины</h2>
+      <div class="cart-trip">
+        <img src="https://images.unsplash.com/photo-1602669244516-c776473355fe?ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80" alt="">
+        <div class="card-trip-footer">
+          <div>
+            <h2>Название картины</h2>
+            <p>Описание картины</p>
+          </div>
+          <h2>500 руб</h2>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+
+
